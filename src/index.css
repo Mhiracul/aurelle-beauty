@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Italiana&display=swap");
+
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Italiana", serif;
+  --font-body: "DM Sans", sans-serif;
+
+  --color-ivory: #f7f2eb;
+  --color-champagne: #d8bfa5;
+  --color-bronze: #a47756;
+  --color-espresso: #30201b;
+  --color-wine: #713a42;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: #f7f2eb;
+  color: #30201b;
+  font-family: var(--font-body);
+  -webkit-font-smoothing: antialiased;
+}
+
+button,
+a {
+  -webkit-tap-highlight-color: transparent;
+}
+
+::selection {
+  background: #30201b;
+  color: #f7f2eb;
+}
